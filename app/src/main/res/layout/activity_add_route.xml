@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pratamawijaya.panggilpeta.ui.AddRouteActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="@string/txt_from"
+                    android:focusable="false"
+                    android:id="@+id/etFrom"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/ic_maps_pin_drop"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnAddMap"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:id="@+id/spinnerDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnGetRoute"
+                android:background="@color/primaryColor"
+                android:text="get route"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
