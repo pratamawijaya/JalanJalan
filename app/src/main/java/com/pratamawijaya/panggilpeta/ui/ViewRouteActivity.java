@@ -42,6 +42,7 @@ public class ViewRouteActivity extends FragmentActivity {
     private double latAwal, latTujuan, lngAwal, lngTujuan;
     private Bundle data;
 
+    private String tujuan;
     private List<LatLng> latLngList;
     private com.pratamawijaya.panggilpeta.json.Response response;
     private ProgressDialog progressDialog;
@@ -73,6 +74,7 @@ public class ViewRouteActivity extends FragmentActivity {
 
             latTujuan = data.getDouble("latTujuan");
             lngTujuan = data.getDouble("lngTujuan");
+            tujuan = data.getString("tujuan");
 
             getDirections(getGoogleDirectionsUrl(latAwal, lngAwal, latTujuan, lngTujuan));
         }
@@ -140,7 +142,7 @@ public class ViewRouteActivity extends FragmentActivity {
         LocationModel locationModel = realm.createObject(LocationModel.class);
         locationModel.setId(Utils.getCurrentTimestamp());
         locationModel.setAsal(legs.getStart_address());
-        locationModel.setTujuan(legs.getEnd_address());
+        locationModel.setTujuan(tujuan);
         locationModel.setDistance(legs.getDistance().getText());
         locationModel.setDuration(legs.getDuration().getText());
 

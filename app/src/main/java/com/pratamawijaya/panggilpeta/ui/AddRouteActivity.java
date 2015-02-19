@@ -52,9 +52,9 @@ public class AddRouteActivity extends BaseActivity {
      * forgive me ~
      */
     private void generateLocationDummy() {
-        locations.add(new Location("Sadranan", -8.1468146, 110.5851987));
+        locations.add(new Location("Sadranan", -8.146982, 110.6076521));
         locations.add(new Location("Ngrenehan", -8.1235303, 110.5161231));
-        locations.add(new Location("Indrayanti", -8.1468146, 110.5851987));
+        locations.add(new Location("Indrayanti", -8.1501091, 110.6121113));
     }
 
     @OnClick(R.id.btnAddMap)
@@ -72,6 +72,7 @@ public class AddRouteActivity extends BaseActivity {
             data.putDouble("latTujuan", loc.getLat());
             data.putDouble("lngTujuan", loc.getLng());
             data.putInt("status", MainActivity.FROM_NET);
+            data.putString("tujuan", loc.getName());
 
             startActivity(new Intent(this, ViewRouteActivity.class).putExtras(data));
         } else {
