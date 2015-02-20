@@ -14,7 +14,6 @@ import com.pratamawijaya.panggilpeta.BaseActivity;
 import com.pratamawijaya.panggilpeta.R;
 import com.pratamawijaya.panggilpeta.adapter.ListRouteAdapter;
 import com.pratamawijaya.panggilpeta.helper.RecyclerItemClickListener;
-import com.pratamawijaya.panggilpeta.model.LatLngModel;
 import com.pratamawijaya.panggilpeta.model.LocationModel;
 
 import java.util.ArrayList;
@@ -80,14 +79,15 @@ public class MainActivity extends BaseActivity implements RecyclerItemClickListe
     private void readDataFromDb() {
         if (locationModels.size() > 0)
             locationModels.clear();
-        RealmResults<LocationModel> result = realm.where(LocationModel.class).findAll();
+        RealmResults<LocationModel> result = realm
+                .where(LocationModel.class)
+                .findAll();
+        // sortiny by id.
+        // show greater first
+        result.sort("id", RealmResults.SORT_ORDER_DESCENDING);
         for (LocationModel data : result) {
             Log.d("tag", "datanya " + data.getId());
             locationModels.add(data);
-
-            for (LatLngModel test : data.getLatLngRealmList()) {
-//                Log.d("tag", "lat lng dari :" + data.getId() + " -> " + test.getLat() + "," + test.getLng());
-            }
         }
         // notify adapter
         adapterRoute.notifyDataSetChanged();

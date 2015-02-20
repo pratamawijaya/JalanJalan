@@ -55,6 +55,7 @@ public class AddRouteActivity extends BaseActivity {
         locations.add(new Location("Sadranan", -8.146982, 110.6076521));
         locations.add(new Location("Ngrenehan", -8.1235303, 110.5161231));
         locations.add(new Location("Indrayanti", -8.1501091, 110.6121113));
+        locations.add(new Location("KaliBiru", -7.8017879,110.1318019));
     }
 
     @OnClick(R.id.btnAddMap)
