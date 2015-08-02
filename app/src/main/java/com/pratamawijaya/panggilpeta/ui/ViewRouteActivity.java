@@ -18,7 +18,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.gson.Gson;
-import com.pratamawijaya.panggilpeta.BaseApplication;
+import com.pratamawijaya.panggilpeta.base.BaseApplication;
 import com.pratamawijaya.panggilpeta.Constant;
 import com.pratamawijaya.panggilpeta.R;
 import com.pratamawijaya.panggilpeta.helper.Utils;

@@ -1,7 +1,8 @@
-package com.pratamawijaya.panggilpeta;
+package com.pratamawijaya.panggilpeta.base;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import com.pratamawijaya.panggilpeta.R;
 
 /**
  * Created by pratama on 2/18/15.

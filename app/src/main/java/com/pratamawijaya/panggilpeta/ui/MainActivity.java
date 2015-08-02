@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.pratamawijaya.panggilpeta.BaseActivity;
+import com.pratamawijaya.panggilpeta.base.BaseActivity;
 import com.pratamawijaya.panggilpeta.R;
 import com.pratamawijaya.panggilpeta.adapter.ListRouteAdapter;
 import com.pratamawijaya.panggilpeta.helper.RecyclerItemClickListener;
