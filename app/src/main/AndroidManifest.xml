@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pratamawijaya.panggilpeta" >
+    package="com.pratamawijaya.wisatajogja" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,13 +12,13 @@
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 
     <application
-        android:name=".base.BaseApplication"
+        android:name="com.pratamawijaya.wisatajogja.base.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.JalanJalan" >
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.pratamawijaya.wisatajogja.ui.MainActivity"
             android:label="@string/app_name" >
         </activity>
 
@@ -30,24 +30,24 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.pratamawijaya.wisatajogja.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".ui.AddRouteActivity"
+            android:name="com.pratamawijaya.wisatajogja.ui.AddRouteActivity"
             android:label="@string/title_activity_add_route"
-            android:parentActivityName=".ui.MainActivity" >
+            android:parentActivityName="com.pratamawijaya.wisatajogja.ui.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.pratamawijaya.panggilpeta.ui.MainActivity" />
+                android:value="com.pratamawijaya.wisatajogja.ui.MainActivity" />
         </activity>
         <activity
-            android:name=".ui.AddMapActivity"
+            android:name="com.pratamawijaya.wisatajogja.ui.AddMapActivity"
             android:label="@string/title_activity_add_map" />
         <activity
-            android:name=".ui.ViewRouteActivity"
+            android:name="com.pratamawijaya.wisatajogja.ui.ViewRouteActivity"
             android:label="@string/title_activity_view_route" />
         <activity
-            android:name=".views.LoginViewActivity"
+            android:name="com.pratamawijaya.wisatajogja.views.LoginViewActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,7 +56,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".views.home.HomeViewActivity"
+            android:name="com.pratamawijaya.wisatajogja.views.home.HomeViewActivity"
             android:label="@string/title_activity_home_view" >
         </activity>
     </application>

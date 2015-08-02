@@ -6,7 +6,7 @@ android {
   buildToolsVersion "22.0.1"
 
   defaultConfig {
-    applicationId "com.pratamawijaya.panggilpeta"
+    applicationId "com.pratamawijaya.wisatajogja"
     minSdkVersion 15
     targetSdkVersion 22
     versionCode 1

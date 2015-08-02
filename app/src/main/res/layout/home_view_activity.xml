@@ -4,7 +4,7 @@
     android:id="@+id/drawerLayout"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.pratamawijaya.panggilpeta.views.home.HomeViewActivity"
+    tools:context="com.pratamawijaya.wisatajogja.views.home.HomeViewActivity"
     >
   <!-- content-->
   <android.support.design.widget.CoordinatorLayout
