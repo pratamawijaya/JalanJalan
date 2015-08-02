@@ -1,4 +1,4 @@
-package com.pratamawijaya.panggilpeta.model;
+package com.pratamawijaya.panggilpeta.models;
 
 /**
  * Created by pratama on 2/18/15.

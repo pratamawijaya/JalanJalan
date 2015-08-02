@@ -14,7 +14,7 @@ import com.pratamawijaya.panggilpeta.BaseActivity;
 import com.pratamawijaya.panggilpeta.R;
 import com.pratamawijaya.panggilpeta.adapter.ListRouteAdapter;
 import com.pratamawijaya.panggilpeta.helper.RecyclerItemClickListener;
-import com.pratamawijaya.panggilpeta.model.LocationModel;
+import com.pratamawijaya.panggilpeta.models.LocationModel;
 import io.realm.Realm;
 import io.realm.RealmResults;
 import java.util.ArrayList;

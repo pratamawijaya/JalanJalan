@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.pratamawijaya.panggilpeta.R;
-import com.pratamawijaya.panggilpeta.model.LocationModel;
+import com.pratamawijaya.panggilpeta.models.LocationModel;
 
 import java.util.List;
 

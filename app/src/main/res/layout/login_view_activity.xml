@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.pratamawijaya.panggilpeta.views.LoginViewActivity"
+    >
+
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:scaleType="fitXY"
+      android:src="@drawable/img_bg"
+      android:layout_height="match_parent"
+      />
+
+  <ImageView
+      android:layout_marginTop="30dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="wrap_content"
+      android:src="@drawable/img_jogja"
+      android:layout_height="wrap_content"
+      />
+
+  <com.google.android.gms.common.SignInButton
+      android:layout_marginBottom="50dp"
+      android:id="@+id/btnSignIn"
+      android:layout_gravity="center_horizontal|bottom"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      />
+
+</FrameLayout>

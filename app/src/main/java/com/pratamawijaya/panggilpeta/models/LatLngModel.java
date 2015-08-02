@@ -1,4 +1,4 @@
-package com.pratamawijaya.panggilpeta.model;
+package com.pratamawijaya.panggilpeta.models;
 
 import io.realm.RealmObject;
 

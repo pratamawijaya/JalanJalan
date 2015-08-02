@@ -1,0 +1,11 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="Theme.JalanJalan."
+      parent="Base.Theme.JalanJalan">
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+  </style>
+
+
+</resources>

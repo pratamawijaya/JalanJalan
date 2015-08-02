@@ -9,4 +9,5 @@
     <string name="title_activity_add_map">Map</string>
     <string name="txt_liburan">Liburan itu bukan mitos</string>
     <string name="title_activity_view_route">Map</string>
+  <string name="title_activity_login_view">LoginViewActivity</string>
 </resources>

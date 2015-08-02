@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.pratamawijaya.panggilpeta.BaseActivity;
 import com.pratamawijaya.panggilpeta.R;
-import com.pratamawijaya.panggilpeta.model.Location;
+import com.pratamawijaya.panggilpeta.models.Location;
 import java.util.ArrayList;
 import java.util.List;
 
