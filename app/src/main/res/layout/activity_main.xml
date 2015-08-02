@@ -25,16 +25,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:id="@+id/fab"
-            app:fab_colorNormal="@color/accentColor"
-            app:fab_colorPressed="@color/accentColorPressed"
-            android:layout_alignParentRight="true"
-            app:fab_icon="@drawable/ic_add"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_height="wrap_content" />
+        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:id="@+id/fab"-->
+            <!--app:fab_colorNormal="@color/accentColor"-->
+            <!--app:fab_colorPressed="@color/accentColorPressed"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--app:fab_icon="@drawable/ic_add"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_height="wrap_content" />-->
     </RelativeLayout>
 
 </LinearLayout>

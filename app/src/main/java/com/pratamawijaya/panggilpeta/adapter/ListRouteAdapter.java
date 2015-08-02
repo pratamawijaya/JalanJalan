@@ -13,7 +13,7 @@ import com.pratamawijaya.panggilpeta.model.LocationModel;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by pratama on 2/18/15.
@@ -47,18 +47,18 @@ public class ListRouteAdapter extends RecyclerView.Adapter<ListRouteAdapter.View
     }
 
     public static class ViewHolderRoute extends RecyclerView.ViewHolder {
-        @InjectView(R.id.txttujuan)
+        @Bind(R.id.txttujuan)
         TextView txtTujuan;
-        @InjectView(R.id.txtdari)
+        @Bind(R.id.txtdari)
         TextView txtDari;
-        @InjectView(R.id.txtdistance)
+        @Bind(R.id.txtdistance)
         TextView txtDistance;
-        @InjectView(R.id.txteta)
+        @Bind(R.id.txteta)
         TextView txtEta;
 
         public ViewHolderRoute(View itemView) {
             super(itemView);
-            ButterKnife.inject(this, itemView);
+            ButterKnife.bind(this, itemView);
         }
     }
 }

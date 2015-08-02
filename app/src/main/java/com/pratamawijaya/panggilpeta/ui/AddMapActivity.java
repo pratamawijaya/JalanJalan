@@ -32,7 +32,7 @@ public class AddMapActivity extends FragmentActivity implements GoogleMap.OnMapC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_map);
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         setUpMapIfNeeded();
 
 
@@ -114,17 +114,17 @@ public class AddMapActivity extends FragmentActivity implements GoogleMap.OnMapC
         lng = latLng.longitude;
     }
 
-    @OnClick(R.id.fab)
-    public void onFabClick() {
-        Toast.makeText(this, "fab click", Toast.LENGTH_SHORT).show();
-        Bundle data = new Bundle();
-        data.putDouble("lat", lat);
-        data.putDouble("lng", lng);
-        Intent resultIntent = new Intent();
-        resultIntent.putExtras(data);
-        setResult(RESULT_OK, resultIntent);
-        finish();
-    }
+    //@OnClick(R.id.fab)
+    //public void onFabClick() {
+    //    Toast.makeText(this, "fab click", Toast.LENGTH_SHORT).show();
+    //    Bundle data = new Bundle();
+    //    data.putDouble("lat", lat);
+    //    data.putDouble("lng", lng);
+    //    Intent resultIntent = new Intent();
+    //    resultIntent.putExtras(data);
+    //    setResult(RESULT_OK, resultIntent);
+    //    finish();
+    //}
 
     @Override
     public void onConnected(Bundle bundle) {

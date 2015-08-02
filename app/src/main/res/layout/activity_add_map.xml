@@ -12,14 +12,14 @@
         tools:context="com.pratamawijaya.panggilpeta.ui.AddMapActivity"
         android:name="com.google.android.gms.maps.SupportMapFragment" />
 
-    <com.getbase.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:id="@+id/fab"
-        android:layout_alignParentBottom="true"
-        app:fab_icon="@drawable/ic_check"
-        android:layout_centerHorizontal="true"
-        app:fab_colorNormal="@color/primaryColor"
-        app:fab_colorPressed="@color/primaryColorDark"
-        android:layout_height="wrap_content" />
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--app:fab_icon="@drawable/ic_check"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--app:fab_colorNormal="@color/primaryColor"-->
+        <!--app:fab_colorPressed="@color/primaryColorDark"-->
+        <!--android:layout_height="wrap_content" />-->
 
 </RelativeLayout>
