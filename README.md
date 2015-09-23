@@ -1,13 +1,15 @@
-JalanJalan
-==============
+## JalanJalan
 
-Namanya jalan2..
+### Intro
 
-buat ambil latitude dan longitude dari google directions, lalu disave secara lokal, maksudnya biar gak perlu ambil dari internet lagi
+**JalanJalan** adalah projek selo saya kala waktu itu, dimana saya kadang menemui kesulitan ketika akan pergi ketempat wisata di daerah Gunung Kidul Jogjakarta, dimana ketiadaan jaringan koneksi internet yang mencukupi untuk membuka Google Map.
 
-API KEY
-==============
 
+## Mau Testing ?
+folder debug_apk didalamnya terdapat file apk yang siap di install ke hp kamu 
+
+
+## API KEY
 Jangan lupa diganti API_KEY nya agar mapsnya muncul ketika kamu build
 
 ganti api key di 
