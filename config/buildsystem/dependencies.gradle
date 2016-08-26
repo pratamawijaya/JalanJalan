@@ -15,6 +15,7 @@ ext {
   supportLibraryVersion = '24.2.0'
   firebaseVersion = '9.4.0'
   playServiceVersion = '9.4.0'
+  butterknifeVersion = '8.3.0'
 
   presentationDependencies =
       [appCompat           : "com.android.support:appcompat-v7:${supportLibraryVersion}",
@@ -22,5 +23,13 @@ ext {
        playServiceAuth     : "com.google.android.gms:play-services-auth:${playServiceVersion}",
        firebaseAuth        : "com.google.firebase:firebase-auth:${firebaseVersion}",
        firebaseDatabase    : "com.google.firebase:firebase-database:${firebaseVersion}",
-       firebaseRemoteConfig: "com.google.firebase:firebase-config:${firebaseVersion}"]
+       firebaseRemoteConfig: "com.google.firebase:firebase-config:${firebaseVersion}",
+       butterKnife         : "com.jakewharton:butterknife:${butterknifeVersion}",
+       butterKnifeCompiler : "com.jakewharton:butterknife-compiler:${butterknifeVersion}"]
+
+  presentationTestDependencies = [
+      junit = "",
+      mockito = "",
+      hamcrest = ""
+  ]
 }

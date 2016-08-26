@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.getkeepsafe.dexcount'
 
 android {
   compileSdkVersion 24
@@ -28,6 +29,10 @@ dependencies {
   compile presentationDependencies.playServiceAuth
   compile presentationDependencies.firebaseAuth
   compile presentationDependencies.firebaseDatabase
+  compile presentationDependencies.butterKnife
+
+
+  apt presentationDependencies.butterKnifeCompiler
 }
 
 apply plugin: 'com.google.gms.google-services'

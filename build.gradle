@@ -4,11 +4,13 @@ apply from: 'config/buildsystem/dependencies.gradle'
 buildscript {
   repositories {
     jcenter()
+    mavenCentral()
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:2.1.3'
     classpath 'com.google.gms:google-services:3.0.0'
     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.5.6'
   }
 }
 
