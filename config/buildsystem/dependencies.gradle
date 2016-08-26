@@ -1,0 +1,26 @@
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
+
+ext {
+  androidBuildToolsVersion = "24.0.0"
+  androidMinSdkVersion = 16
+  androidTargetSdkVersion = 24
+  androidCompileSdkVersion = 24
+
+  // libs
+
+  supportLibraryVersion = '24.2.0'
+  firebaseVersion = '9.4.0'
+  playServiceVersion = '9.4.0'
+
+  presentationDependencies =
+      [appCompat           : "com.android.support:appcompat-v7:${supportLibraryVersion}",
+       supportDesign       : "com.android.support:design:${supportLibraryVersion}",
+       playServiceAuth     : "com.google.android.gms:play-services-auth:${playServiceVersion}",
+       firebaseAuth        : "com.google.firebase:firebase-auth:${firebaseVersion}",
+       firebaseDatabase    : "com.google.firebase:firebase-database:${firebaseVersion}",
+       firebaseRemoteConfig: "com.google.firebase:firebase-config:${firebaseVersion}"]
+}
